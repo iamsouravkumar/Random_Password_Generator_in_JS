@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>Random Password Generator</title>
+  <link href="style.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body>
+
+  <div class="container">
+    <form class="form">
+      <h1 class="h1">Password Generator</h1>
+      <p class="paragraph">Please select the type of password which you want to Generate.</p><br>
+      <input type="text" id="display" placeholder="Your Password will be here" readonly="true">
+      <div class="container-2">
+        <input type="radio" id="wp" name="radio" class="redio" value="0" checked>
+        <label for="wp"> Weak Password</label><br>
+        <input type="radio" id="sp" name="radio" class="redio" value="1">
+        <label for="sp"> Strong Password</label><br>
+        <input type="radio" id="ssp" name="radio" class="redio" value="1">
+        <label for="ssp"> Super Strong Password</label><br>
+        <input type="radio" id="fp" name="radio" class="redio" value="1">
+        <label for="fp"> Funny Password</label><br>
+      </div>
+      <input type="submit" class="button" id="btn" value="Generate Password">
+    </form>
+  </div>
+  <script src="script.js"></script>
+</body>
+
+</html>
